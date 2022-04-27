@@ -143,7 +143,7 @@ a {
 
 .portfolio {
     width: 100%;
-    height: 80%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,14 +168,21 @@ a {
     padding: 50px 0px 30px 0px 
 }
 
+
+
 .project-1 .text,
 .project-2 .text {
     width: 100%;
-    height: auto;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: left; 
-    padding: 40px 20px 40 20px
+    padding: 40px 20px 20px 20px
+}
+
+.project-1 .context,
+.project-2 .context {
+    padding: 30px 0 0 0 
 }
 
 .project-1 .video,
@@ -183,8 +190,10 @@ a {
     width: 100%;
     height: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
+    padding: 0px 0px 0px 20px
+    
 }
 
 .breakline-orange {
@@ -194,11 +203,11 @@ a {
 }
 
 .breakline-black {
-    height: 90%;
+    height: 85%;
     width: 2px;
     background-color: lightgray;
     border-radius: 3%;
-    margin: 30px 50px
+    margin: 50px 50px
 }
 
 .title {
